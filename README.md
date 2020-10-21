@@ -1,1 +1,0 @@
-This repository contains some of the basic programs I have made. All programs in this repository were required assignments for the course CS10A: Introduction to Programming Concepts and Methodologies. 
