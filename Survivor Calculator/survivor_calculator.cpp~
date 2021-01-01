@@ -1,0 +1,39 @@
+/*Survivor Calculator; Cortez Phenix; This program will display the
+percentage of people who survive a disaster*/
+
+#include <iostream>
+#include <cmath>
+using namespace std;
+
+void greeting()
+{
+string StrGreeting;
+StrGreeting = "Hello, beloved user.\nThis program will calculate disaster survivors.";
+cout <<StrGreeting;
+}
+
+int calculatePct()
+{
+int total_number_of_people;
+int number_of_deaths;
+float survivor_percentage;
+cout << "Enter Number of People in Disaster Zone: ";
+cin >> total_number_of_people;
+cout << "Enter Number of Deaths: ";
+cin >> number_of_deaths;
+survivor_percentage = (float)total_number_of_people - (float)number_of_deaths / (float)total_number_of_people * 100;
+cout << survivor_percentage;
+}
+
+int main()
+{
+string StrGreeting;
+StrGreeting = "Hello, Beloved User.\nThis program will calculate disaster survivors.\n\n";
+cout <<StrGreeting;
+
+calculatePct();
+return 0;
+}
+
+
+
